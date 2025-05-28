@@ -1,7 +1,7 @@
 export const siteMetadata = {
-  title: "Amit Chauhan portfolio",
-  author: "Amit Chauhan",
-  headerTitle: "Amit Chauhan",
+  title: "Md Ariful Islam portfolio",
+  author: "Md Ariful Islam",
+  headerTitle: "Md Ariful Islam",
   description: "Frontend and Reactjs developer",
   language: "en-us",
   theme: "light",
