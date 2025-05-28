@@ -13,25 +13,58 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       "As a programmer, I contribute to the implementation of a model-based methodology for developing IT Project Management Plans and Scope Definitions using Artificial Intelligence algorithms. My responsibilities include designing and coding system architecture, integrating AI solutions to automate and optimize project management processes, and building scalable systems that ensure smooth execution from planning through deployment.",
   },
   {
-    title: "Engineering Trainee",
+    title: "Courier Partner",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "Wolt",
+      href: "https://wolt.com/lv/lva",
     },
-    date: "July 2023 - Sep 2023",
-    location: "Remote",
+    date: "October 2024 - Present",
+    location: "Liepāja",
     description:
-      "Gained hands-on experience working with a monorepo structure and learned about scalable application architecture. Contributed to building and optimizing tools that improved the CI/CD pipeline for microservices, enhancing deployment efficiency and code maintainability.",
+      " As a part-time food delivery cyclist for Wolt, I ensure timely and accurate delivery of food orders while navigating efficiently through urban areas. My role demands excellent route planning, stamina, and high levels of customer interaction to ensure a smooth and satisfying delivery experience.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Courier Partner",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "Bolt",
+      href: "https://bolt.eu/lv-lv/",
     },
-    date: "Winter - 2022",
-    location: "Remote",
+    date: "October 2024 - Present",
+    location: "Liepāja",
     description:
-      "Worked as part of a frontend development team responsible for implementing new features and updating legacy codebases to modern technologies. Gained practical knowledge in web development best practices and the complete CI/CD development lifecycle.",
+      " As a part-time food delivery cyclist for Bolt, I ensure timely and accurate delivery of food orders while navigating efficiently through urban areas. My role demands excellent route planning, stamina, and high levels of customer interaction to ensure a smooth and satisfying delivery experience.",
+  },
+  {
+    title: "Software Engineer",
+    organisation: {
+      name: "Hi-Tech Marine and Industrial Engineering  Limited",
+      href: "https://hi-techengineering.com/",
+    },
+    date: "May 2023 - August 2024",
+    location: "Bagerhat",
+    description:
+      "At Hi-Tech, I have been deeply involved in planning, building, and maintaining high-quality web applications. I work across the full software development process, from coming up with ideas to writing code, to create secure and scalable solutions that meet changing business needs.",
+  },
+  {
+    title: "Product Development Intern",
+    organisation: {
+      name: "Flowy Sdn Bhd",
+      href: "https://flowyteam.com/",
+    },
+    date: "August 2022 - March 2023",
+    location: "Kuala Lumpur, Malaysia",
+    description:
+      "As part of my industrial training required to complete my bachelor’s degree, I worked with FlowyTeam, a productivity platform. My primary role was to identify, troubleshoot, and resolve system bugs, ensuring a smoother and more efficient user experience.",
+  },
+  {
+    title: "Junior Software Developer",
+    organisation: {
+      name: "Traitquest Innovation Sdn. Bhd",
+      href: "https://flowyteam.com/",
+    },
+    date: "January 2021 - July 2022",
+    location: "Kuala Lumpur, Malaysia",
+    description:
+      " During my university years, I secured my first job as a Software Developer while balancing final-year projects and studies. Working remotely due to the COVID-19 pandemic, I contributed to the development of web application systems and management platforms.",
   },
 ];
