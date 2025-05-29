@@ -5,11 +5,7 @@ import {
   SiNextdotjs,
   SiFlask,
 } from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+import { ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -22,11 +18,8 @@ import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
-import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
@@ -83,10 +76,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiNextdotjs,
       },
       {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
-      {
         name: "React Router Dom",
         icon: ReactRouterDomIcon,
       },
@@ -97,22 +86,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Tailwindcss",
         icon: TailwindcssSvg,
-      },
-      {
-        name: "MUI",
-        icon: MuiSvg,
-      },
-      {
-        name: "Framer motion",
-        icon: FramerMotionIcon,
-      },
-      {
-        name: "Vite",
-        icon: ViteSvg,
-      },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
       },
     ],
   },
