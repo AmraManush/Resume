@@ -13,9 +13,9 @@ import {
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
-import HtmlSvg from "@/public/icons/html.svg";
-import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
+import phpSvg from "@/public/icons/php.svg";
+import DartSvg from "@/public/icons/dart.svg";
+import JavaSvg from "@/public/icons/java.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
@@ -46,16 +46,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Languages",
     skills: [
       {
-        name: "HTML",
-        icon: HtmlSvg,
-      },
-      {
-        name: "CSS",
-        icon: CsssSvg,
-      },
-      {
-        name: "SASS",
-        icon: SassSvg,
+        name: "PHP",
+        icon: phpSvg,
       },
       {
         name: "Javascript",
@@ -68,6 +60,14 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Python",
         icon: PythonSvg,
+      },
+      {
+        name: "Dart",
+        icon: DartSvg,
+      },
+      {
+        name: "Java",
+        icon: JavaSvg,
       },
     ],
   },
