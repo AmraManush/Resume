@@ -18,20 +18,30 @@ import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
+import JSPSvg from "@/public/icons/jsp.svg";
+import AngularSvg from "@/public/icons/angular.svg";
+import FlutterSvg from "@/public/icons/flutter.svg";
+import SvelteSvg from "@/public/icons/svelte.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
+import LaraSvg from "@/public/icons/laravel.svg";
+import DjangoSvg from "@/public/icons/django.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
+import MySQLSvg from "@/public/icons/mysql.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
+import VSSvg from "@/public/icons/vs.svg";
 import DockerSvg from "@/public/icons/docker.svg";
 import AwsSvg from "@/public/icons/aws.svg";
+import SupSvg from "@/public/icons/supbase.svg";
+import FireSvg from "@/public/icons/firebase.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
@@ -68,7 +78,23 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Libraries and Frameworks",
     skills: [
       {
+        name: "JSP",
+        icon: JSPSvg,
+      },
+      {
+        name: "Flutter",
+        icon: FlutterSvg,
+      },
+      {
         name: "Reactjs",
+        icon: ReactjsSvg,
+      },
+      {
+        name: "Angular",
+        icon: AngularSvg,
+      },
+      {
+        name: "React Native",
         icon: ReactjsSvg,
       },
       {
@@ -84,6 +110,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: ReduxSvg,
       },
       {
+        name: "Svelte",
+        icon: SvelteSvg,
+      },
+      {
         name: "Tailwindcss",
         icon: TailwindcssSvg,
       },
@@ -92,6 +122,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
     sectionName: "Backend",
     skills: [
+      {
+        name: "Laravel",
+        icon: LaraSvg,
+      },
       {
         name: "Nodejs",
         icon: NodejsSvg,
@@ -105,6 +139,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiSocketdotio,
       },
       {
+        name: "Django",
+        icon: DjangoSvg,
+      },
+      {
         name: "Flask",
         icon: SiFlask,
       },
@@ -116,6 +154,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "MongoDB",
         icon: MongoDBSvg,
+      },
+      {
+        name: "MySQL",
+        icon: MySQLSvg,
       },
       {
         name: "Postgress",
@@ -135,12 +177,24 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: GitSvg,
       },
       {
+        name: "VS Code",
+        icon: VSSvg,
+      },
+      {
         name: "Docker",
         icon: DockerSvg,
       },
       {
         name: "AWS",
         icon: AwsSvg,
+      },
+      {
+        name: "Supbase",
+        icon: SupSvg,
+      },
+      {
+        name: "Firebase",
+        icon: FireSvg,
       },
       {
         name: "Postman",
