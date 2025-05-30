@@ -5,12 +5,12 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "Bravoori",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["ReactNative", "Expo", "Firebase", "Google Play Store"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/bravori.webp",
+      DARK: "/images/projects/bravori.webp",
     },
   },
   {
@@ -45,19 +45,19 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
+    name: "Bravori",
+    favicon: "/images/projects/logos/bravori.ico",
     imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
+      "/images/projects/bravori.webp",
+      "/images/projects/bravori.webp",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "Recently, I fixed many bugs in an application called Bravori, which is built on React Native. This application is designed for a music school where children learn about music.",
+    sourceCodeHref: "https://github.com/arifulatwork/Music-School",
+    liveWebsiteHref: "https://play.google.com/store/apps",
   },
   {
-    name: "Kanban app",
+    name: "Unique Class Managment System",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
       "/images/projects/kanbanLight.webp",
