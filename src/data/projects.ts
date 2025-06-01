@@ -85,7 +85,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://addarapp.com/docs/addar-manual-110.pdf",
   },
   {
-    name: "Lost and Found Application",
+    name: "Portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
       "/images/projects/portfolioDark.webp",
@@ -121,5 +121,61 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
     sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+  },
+  {
+    name: "FindITJobs Web Application",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/job.webp",
+      "/images/projects/job.webp",
+      "/images/projects/job.webp",
+      "/images/projects/job.webp",
+    ],
+    description:
+      "A dynamic job site with an integrated admin panel, built using Laravel. The platform streamlines job postings, applications, and user management, providing a seamless experience for both job seekers and employers. The admi n panel enables efficient management of listings, user accounts, and site settings, ensuring smooth operation and scalability.",
+    sourceCodeHref: "https://github.com/arifulatwork/FindITJobs",
+    liveWebsiteHref: "https://github.com/arifulatwork/FindITJobs",
+  },
+  {
+    name: "Classified Marketplace Application",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/market.webp",
+      "/images/projects/market.webp",
+      "/images/projects/market.webp",
+      "/images/projects/market.webp",
+    ],
+    description:
+      "I am developing a feature-rich classified marketplace using Laravel and MySQL to enable smooth buying and selling experiences. The platform includes essential features such as user authentication, listing management, advanced search and filter options, and secure transaction handling. My focus is on ensuring scalability, optimizing performance, and designing a user-friendly interface to enhance the overall user experience. The marketplace is continuously updated with modern designs and advanced functionalities to improve usability and increase user engagement.",
+    sourceCodeHref: "https://github.com/arifulatwork/FindITJobs",
+    liveWebsiteHref: "https://github.com/arifulatwork/FindITJobs",
+  },
+  {
+    name: "Point-of-sales",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/pos.webp",
+      "/images/projects/pos.webp",
+      "/images/projects/pos.webp",
+      "/images/projects/pos.webp",
+    ],
+    description:
+      "I developed a Point-of-Sale (POS) system using PHP, following the MVC architecture to ensure better code organization and maintainability. The system includes key features such as inventory management, sales tracking, user authentication, and comprehensive reporting. It is designed for efficiency and scalability, enabling smooth transactions and supporting streamlined business operations.",
+    sourceCodeHref: "https://github.com/arifulatwork/Point-of-sales",
+    liveWebsiteHref: "https://github.com/arifulatwork/Point-of-sales",
+  },
+  {
+    name: "Restoran Nasi Lounge",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/pos.webp",
+      "/images/projects/pos.webp",
+      "/images/projects/pos.webp",
+      "/images/projects/pos.webp",
+    ],
+    description:
+      "This project is an online food ordering system that simplifies the ordering process for restaurants. It enables customers to order online and allows restaurants to manage promotions, track customer benefits, and improve engagement.",
+    sourceCodeHref: "https://shorturl.at/7zJHk",
+    liveWebsiteHref: "https://shorturl.at/7zJHk",
   },
 ];

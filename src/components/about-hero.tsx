@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
@@ -47,8 +46,8 @@ export default function AboutHero() {
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              showcasing my expertise in Reactjs, Nextjs, Javascript, Typescript
-              and web development.
+              showcasing my expertise in Dart, Python, JavaScript, TypeScript,
+              and PHP.
             </p>
           </FadeUp>
           <FadeRight
@@ -60,7 +59,7 @@ export default function AboutHero() {
             <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
-                alt="Indian flag"
+                alt="Latvian flag"
                 src="https://flagcdn.com/lv.svg"
                 width={15}
                 height={15}
