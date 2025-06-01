@@ -220,4 +220,74 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/arifulatwork/ArifulStream",
     liveWebsiteHref: "https://github.com/arifulatwork/ArifulStream",
   },
+  {
+    name: "Covid Care",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/covid.webp",
+      "/images/projects/covid.webp",
+      "/images/projects/covid.webp",
+      "/images/projects/covid.webp",
+    ],
+    description:
+      "My project focused on COVID-19. We developed a website that provides health related tips along with real-time updates on the coronavirus situation around the world. The site also features a chatbot system that offers users helpful health advice related to COVID-19.",
+    sourceCodeHref: "https://github.com/arifulUTM/COVID-CARE",
+    liveWebsiteHref: "https://github.com/arifulUTM/COVID-CARE",
+  },
+  {
+    name: "Mini Project : Photocopying (Xerox) Machine",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/xerox.webp",
+      "/images/projects/xerox.webp",
+      "/images/projects/xerox.webp",
+      "/images/projects/xerox.webp",
+    ],
+    description:
+      " In short, we successfully completed the project and built a working circuit based on the problem we identified. While a real Xerox machine has a more complex design, this project helped us understand its basic components like the decoder, counter, comparator, and clock disable. It also made us realize the gap between theory and practical skills, highlighting the need for more hands-on experience with circuit projects.",
+    sourceCodeHref: "https://github.com/arifulUTM/COVID-CARE",
+    liveWebsiteHref: "https://github.com/arifulUTM/COVID-CARE",
+  },
+  {
+    name: "Productivity and Task Management Flutter",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/login.webp",
+      "/images/projects/login.webp",
+      "/images/projects/login.webp",
+      "/images/projects/login.webp",
+    ],
+    description:
+      "This is a task management mobile application designed to help users stay  organized and boost productivity. The app offers three main features: Calendar,  Tasks, and Notes. With the Calendar feature, users can schedule and view events at a glance. The Tasks section allows users to create, manage, and track their to do lists, while the Notes feature lets them jot down important information or reminders. ",
+    sourceCodeHref: "https://github.com/Yasser-dev/what-to-do",
+    liveWebsiteHref: "https://github.com/Yasser-dev/what-to-do",
+  },
+  {
+    name: "Pathfinder - A Travel Guide Application",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/login.webp",
+      "/images/projects/login.webp",
+      "/images/projects/login.webp",
+      "/images/projects/login.webp",
+    ],
+    description:
+      "Pathfinder is a travel guide mobile application developed as my final year thesis project during my undergraduate studies. The app is designed to enhance travel safety and convenience, featuring a contact tracing system to help users avoid potential COVID-19 exposure during their journeys. I built the application using Flutter for cross-platform development, Firebase for real-time database and authentication, and Google Cloud Platform APIs for location-based services and travel-related information. This project enabled me to apply my technical knowledge to solve real-world problems while gaining valuable hands-on experience in mobile app development.",
+    sourceCodeHref: "https://shorturl.at/lu58e",
+    liveWebsiteHref: "https://shorturl.at/lu58e",
+  },
+  {
+    name: "Travel Guide Web Application",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/travel.webp",
+      "/images/projects/travel.webp",
+      "/images/projects/travel.webp",
+      "/images/projects/travel.webp",
+    ],
+    description:
+      "I am currently working on a full travel guide mobile application for a company in Spain. The app is designed to help users discover destinations, explore local attractions, learn about cultural highlights, compare prices, and receive personalized travel tips. It is being developed using React.js for the frontend and Laravel for the backend, incorporating features such as real-time data, user authentication, and cloud storage. This project builds on my previous experience and aims to deliver a simple, scalable, and user-friendly travel solution.",
+    sourceCodeHref: "https://github.com/arifulatwork/Travel-FrontEnd",
+    liveWebsiteHref: "https://github.com/arifulatwork/Travel-FrontEnd",
+  },
 ];
