@@ -178,4 +178,46 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://shorturl.at/7zJHk",
     liveWebsiteHref: "https://shorturl.at/7zJHk",
   },
+  {
+    name: "Chatbot - Web Programming Project",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/chat.webp",
+      "/images/projects/chat.webp",
+      "/images/projects/chat.webp",
+      "/images/projects/chat.webp",
+    ],
+    description:
+      "I developed a chatbot application for a web programming course, earning the highest grade in the class. The project featured interactive chatbot functionalities, showcasing my skills in web development and AI-driven conversations. I am currently enhancing the application by incorporating advanced techniques and modern design elements to further improve user experience and overall functionality.",
+    sourceCodeHref: "https://github.com/arifulUTM/Chatbot-with-PHP",
+    liveWebsiteHref: "https://github.com/arifulUTM/Chatbot-with-PHP",
+  },
+  {
+    name: "Malaysian Research Institute Web Application",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/msri.webp",
+      "/images/projects/msri.webp",
+      "/images/projects/msri.webp",
+      "/images/projects/msri.webp",
+    ],
+    description:
+      "I developed a custom web application for a Malaysian client at TraitQuest using PHP, MySQL, and JavaScript. I focused on creating a dynamic, interactive platform with seamless functionality, optimized performance, and a great user experience. The project was successfully delivered, meeting the client’s requirements and business needs.",
+    sourceCodeHref: "https://msri.org.my/",
+    liveWebsiteHref: "https://msri.org.my/",
+  },
+  {
+    name: "IPTV Application – Flutter-Based Streaming",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/iptv.webp",
+      "/images/projects/iptv.webp",
+      "/images/projects/iptv.webp",
+      "/images/projects/iptv.webp",
+    ],
+    description:
+      "I developed a custom IPTV app using Flutter to address the issue of unreliable IPTV providers in my country. The app delivers a smooth mobile streaming experience for my household, effectively eliminating buffering and lag. It is optimized for high performance and quality playback, featuring a user-friendly interface that ensures easy navigation and an enhanced viewing experience.",
+    sourceCodeHref: "https://github.com/arifulatwork/ArifulStream",
+    liveWebsiteHref: "https://github.com/arifulatwork/ArifulStream",
+  },
 ];
